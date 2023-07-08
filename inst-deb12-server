@@ -35,5 +35,5 @@ zcat /usr/share/zabbix-sql-scripts/mysql/server.sql.gz | mysql --default-charact
 mysql -uroot -p"$rootpw" -e "set global log_bin_trust_function_creators = 0;"
 
 cd /etc/zabbix
-sed -i "s/# DBPassword/DBPassword=$rootpw/" zabbix_server.conf
+sed -i "s/# DBPassword=/DBPassword=$rootpw/" zabbix_server.conf
 
