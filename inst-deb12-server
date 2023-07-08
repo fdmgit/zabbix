@@ -37,3 +37,7 @@ mysql -uroot -p"$rootpw" -e "set global log_bin_trust_function_creators = 0;"
 cd /etc/zabbix
 sed -i "s/# DBPassword=/DBPassword=$rootpw/" zabbix_server.conf
 
+systemctl restart zabbix-server zabbix-agent apache2
+systemctl enable zabbix-server zabbix-agent 
+
+echo DONE........
