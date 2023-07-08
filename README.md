@@ -1,2 +1,2 @@
 # zabbix
-Install script for ZABBIX
+Install scripts for ZABBIX
