@@ -1,2 +1,2 @@
-# zabbix
+# ZABBIX
 Install scripts for ZABBIX
