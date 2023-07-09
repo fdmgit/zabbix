@@ -46,7 +46,7 @@ cd /root
 rm zabbix-release_6.4-1+debian12_all.deb
 
 echo -e 'DONE........\n'
-
+sleep 2
+echo -e 'Rebooting\n'
 sleep 5
 reboot
-
